@@ -1,0 +1,38 @@
+body {
+  padding: 10px;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: 'Courier New', Courier, monospace;
+  background-color: lightgray;
+}
+@font-face {
+  font-family: 'Dosis-Regular';
+  src: url('/css/Dosis-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+p {
+}
+label {
+  font-weight: bold;
+}
+
+table {
+  background-color: burlywood;
+  padding: 8px;
+  border-radius: 20px;
+  box-shadow: 5px 5px gray;
+}
+
+.labelOperation {
+  color: blueviolet;
+  font-weight: bold;
+}
+.labelResult {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+displayNumbers {
+  font-family: 'Dosis-Regular', Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
